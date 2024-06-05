@@ -39,7 +39,7 @@ jobs:
           ls -la
       - uses: ./declaration-a11y
         with:
-          url: https://labonnealternance.apprentissage.beta.gouv.fr
+          url: https://www.economie.gouv.fr
           output: a11y.json
 
       - shell: bash
