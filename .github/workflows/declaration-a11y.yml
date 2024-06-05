@@ -10,6 +10,13 @@ on:
     paths:
       - declaration-a11y
       - .github/workflows/declaration-a11y.yml
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "Single url to scan or scan all urls"
+        required: false
+        default: ""
+
 
 name: Test declaration-a11y
 jobs:
